@@ -26,4 +26,4 @@ yarn-error.log*
 .idea
 
 # API key
-/src/components/Weather/rapidAPIkey.json
+/src/rapidAPIkey.json

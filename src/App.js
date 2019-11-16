@@ -1,8 +1,8 @@
 import React from 'react';
 import Typography from "@material-ui/core/Typography";
 import './App.css';
-import {getWeather, Weather} from './components/Weather/Weather';
-import {getDate} from './utils';
+import Weather from './components/Weather/Weather';
+import {getDate, getWeather, getClothes} from './utils';
 
 class App extends React.Component {
   constructor(props) {
@@ -39,8 +39,7 @@ class App extends React.Component {
           history2 = history;
         }
 
-        // TODO get clothes
-        let clothes = [];
+        let clothes = getClothes(history2);
 
         history2[date] = {
           weather,

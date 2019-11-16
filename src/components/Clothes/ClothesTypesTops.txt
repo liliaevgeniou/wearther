@@ -2,11 +2,11 @@
     Crop Top
     Thin
     Thick
-* Short-sleeve shirt
+* Short-Sleeve Shirt
     Crop Top
     Thin
     Thick
-* Long-sleeve shirt
+* Long-Sleeve Shirt
     Crop Top
     Thin
     Thick
