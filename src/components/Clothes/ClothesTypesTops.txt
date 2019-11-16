@@ -1,0 +1,24 @@
+* Tanktop/Sleeveless
+    Crop Top
+    Thin
+    Thick
+* Short-sleeve shirt
+    Crop Top
+    Thin
+    Thick
+* Long-sleeve shirt
+    Crop Top
+    Thin
+    Thick
+* Sweater
+    Thin
+    Thick
+    Very Thick
+* Jacket
+    Very Thin
+    Thin
+    Thick
+* Coat
+    Thin
+    Thick
+    Very Thick

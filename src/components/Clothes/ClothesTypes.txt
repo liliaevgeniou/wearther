@@ -1,0 +1,85 @@
+Top:
+- Tanktop Undershirt
+- Short-sleeve Undershirt
+- Long-sleeve Undershirt
+- Tanktop
+- Short-sleeve Crop Top
+- Long-sleeve Crop Top
+- Thin Short-sleeve T-shirt
+- Thick Short-sleeve T-shirt
+- Thin Long-sleeve T-shirt
+- Short-Sleeve Formal Shirt (Chemise)
+- Long-Sleeve Formal Shirt (Chemise)
+- Thick Long-sleeve T-shirt
+- Thin Sweater
+- Thick Sweater
+- Very Thick Sweater
+- Thin Hoodie
+- Hoodie
+- Thin Zip-up Hoodie
+- Thick Zip-up Hoodie
+- Thin Cardigan
+- Thick Cardigan
+- Suit Vest
+- Thin Suit
+- Suit
+- Thin Jacket
+- Thick Jacket
+- Thin Short Coat
+- Thin Long Coat
+- Thick Short Coat
+- Thick Long Coat
+- Very Thick Short Coat
+- Very Thick Long Coat
+
+Bottom:
+- Very Short Shorts
+- Short Shorts
+- Middle-Thigh Length Shorts
+- Knee Length Shorts
+- Tight Capri Trousers
+- Loose Capri Trousers
+- Thin Trousers
+- Thick Trousers
+- Thin Jeans
+- Thick Jeans
+- Suit Trousers
+- Mini Skirt
+- Knee Length Skirt
+- Long Skirt
+- Leggings
+- Tights
+
+Other:
+- Shoulder-less Short Dress
+- Shoulder-less Long Dress
+- Thin Short-sleeve Short Dress
+- Thin Short-sleeve Long Dress
+- Thick Short-sleeve Short Dress
+- Thick Short-sleeve Long Dress
+- Thin Long-sleeve Short Dress
+- Thin Long-sleeve Long Dress
+- Thick Long-sleeve Short Dress
+- Thick Long-sleeve Long Dress
+- Thin Romper
+- Thick Romper
+- Thin Jumpsuit
+- Thick Jumpsuit
+
+Accessories:
+- Cap
+- Sun Hat
+- Sunglasses
+- Umbrella
+- Parasol
+- Thin Wooly Hat
+- Thick Wooly Hat
+- Thin Scarf
+- Thick Scarf
+- Thin Gloves
+- Thick Gloves
+- Thin Short Socks
+- Thick Short Socks
+- Thin Long Socks
+- Thick Long Socks
+- Ski Socks

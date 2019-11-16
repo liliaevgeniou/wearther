@@ -1,0 +1,17 @@
+* Shorts
+    Short
+    Middle-Thigh
+    Knee
+    Capri
+* Trousers
+    Thin
+    Thick
+    Very Thick
+* Skirt
+    Mini
+    Knee
+    Long
+* Tights
+    Thin
+    Thick
+    Leggings
