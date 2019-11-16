@@ -24,3 +24,6 @@ yarn-error.log*
 
 # Jetbrains
 .idea
+
+# API key
+/src/components/Weather/rapidAPIkey.json
