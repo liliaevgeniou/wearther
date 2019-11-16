@@ -38,8 +38,13 @@ function getWeather(f) {
 class Weather extends React.Component {
   render() {
     return (
-        <Card>
-          <Typography variant="h3" component="h3">
+        // Weather card color set HERE!!! css
+        <Card style={{background: "#f8f8f8"}}>
+          <Typography
+              variant="h3"
+              component="h3"
+              style={{"padding-top": "1vh"}}
+          >
             {this.props.temp}ºC
           </Typography>
           <img

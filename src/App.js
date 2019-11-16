@@ -1,4 +1,5 @@
 import React from 'react';
+import Typography from "@material-ui/core/Typography";
 import './App.css';
 import {getWeather, Weather} from './components/Weather/Weather';
 import {getDate} from './utils';
@@ -58,10 +59,12 @@ class App extends React.Component {
   render() {
     return (
         <div className={"App"}>
-
-          <div className={"Title"}>
+          <Typography
+              className={"Title"}
+              variant={"h1"}
+          >
             Wearther
-          </div>
+          </Typography>
 
           <div className={"Weather"}>
             <Weather
