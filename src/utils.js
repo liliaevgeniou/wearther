@@ -41,3 +41,19 @@ export function getClothes(history) {
     bottoms: ["Short@Shorts", "Mini@Skirt", "Thin@Tights", "Thick@Trousers"],
   }
 }
+
+export const allTops = [
+    "Tanktop/Sleeveless",
+    "Short-Sleeve Shirt",
+    "Long-Sleeve Shirt",
+    "Sweater",
+    "Jacket",
+    "Coat",
+];
+
+export const allBottoms = [
+    "Shorts",
+    "Trousers",
+    "Skirt",
+    "Tights",
+];
