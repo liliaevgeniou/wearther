@@ -11,7 +11,7 @@ export default class Weather extends React.Component {
           <Typography
               variant="h3"
               component="h3"
-              style={{"padding-top": "1vh"}}
+              style={{"paddingTop": "1vh"}}
           >
             {this.props.temp}ºC
           </Typography>

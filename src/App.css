@@ -17,3 +17,19 @@
 .App-link {
   color: #09d3ac;
 }
+
+.Suggestions {
+  padding-top: 2vh;
+  width: 50vw;
+  margin: 0 auto;
+}
+
+.TopsSuggestions {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.BottomsSuggestions {
+  display: flex;
+  overflow-x: scroll;
+}

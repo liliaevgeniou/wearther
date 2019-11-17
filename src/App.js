@@ -3,6 +3,7 @@ import Typography from "@material-ui/core/Typography";
 import './App.css';
 import Weather from './components/Weather/Weather';
 import {getDate, getWeather, getClothes} from './utils';
+import ClothesCard from "./components/Clothes/ClothesCard";
 
 class App extends React.Component {
   constructor(props) {
@@ -76,15 +77,31 @@ class App extends React.Component {
             <div className={"Suggestions"}>
 
               <div className={"TopsSuggestions"}>
-                tank top, tshirt, jacket
+                {
+                  this.state.clothes.tops.map(strClothes => {
+                    // strClothes = "Thin@Tanktop/Sleeveless" e.g.
+                    let [thickness, clothesType] = strClothes.split("@");
+                    return <ClothesCard
+                        key={strClothes}
+                        clothesType={clothesType}
+                        thickness={thickness}
+                    />;
+                  })
+                }
               </div>
               <div className={"BottomsSuggestions"}>
-                dress, tights
+                {
+                  this.state.clothes.bottoms.map(strClothes => {
+                    // strClothes = "Thick@Trousers" e.g.
+                    let [thickness, clothesType] = strClothes.split("@");
+                    return <ClothesCard
+                        key={strClothes}
+                        clothesType={clothesType}
+                        thickness={thickness}
+                    />;
+                  })
+                }
               </div>
-
-              <button className={"ButtonEditSuggestion"}>
-
-              </button>
             </div>
 
           </div>
