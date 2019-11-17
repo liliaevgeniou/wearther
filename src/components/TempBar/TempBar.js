@@ -8,7 +8,7 @@ export default class TempBar extends React.Component {
     return (
         <Slider
             className={"TempBar"}
-            defaultValue={this.props.value}
+            defaultValue={this.props.defaultValue}
             onChange={this.props.onChange}
             disabled={this.props.locked}
             marks
@@ -22,6 +22,6 @@ export default class TempBar extends React.Component {
 
 TempBar.propTypes = {
   locked: PropTypes.bool.isRequired,
-  value: PropTypes.number.isRequired,
+  defaultValue: PropTypes.number.isRequired,
   onChange: PropTypes.func,
 };

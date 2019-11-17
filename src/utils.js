@@ -1,9 +1,26 @@
 import keyObj from "./rapidAPIkey";
 
-export function getDate() {
-    const today = new Date();
-    return [today.getFullYear(), today.getMonth(), today.getDate()].join("-");
+export function dateToStr(date) {
+    return [date.getFullYear(), date.getMonth(), date.getDate()].join("-");
 }
+
+export function getToday() {
+    const today = new Date();
+    return dateToStr(today);
+}
+
+export function getDateBefore(dateStr) {
+    let date = new Date(dateStr);
+    date.setDate(date.getDate() - 1);
+    return date;
+}
+
+export function getDateAfter(dateStr) {
+    let date = new Date(dateStr);
+    date.setDate(date.getDate() + 1);
+    return date;
+}
+
 
 export function getWeather(f) {
     let lon = 51.7520;

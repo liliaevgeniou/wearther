@@ -38,6 +38,12 @@
 }
 
 .BottomsSuggestions {
+  padding-top: 1vh;
   display: flex;
   overflow-x: scroll;
+}
+
+.TemperatureBar {
+  padding-top: 1vh;
+  text-align: center;
 }
