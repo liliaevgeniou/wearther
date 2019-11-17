@@ -1,68 +1,36 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Wearther
+![wearther logo](public/logo192.png)
 
-## Available Scripts
+## Inspiration
 
-In the project directory, you can run:
+Living in the UK, we wanted to have an easy automated way to choose what clothes to wear to be able to stay warm  (but not too hot!), and not catch any freshers' flu. Wearther can be used in any place in the world by anyone to find which suitable clothes they can wear to feel comfortable during the day!
 
-### `npm start`
+## What Wearther does
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Wearther keeps the user's history of what clothes they wore at what temperature, and how they felt on those days. Using this information, and the weather data at the user's location, it suggests an outfit which will keep the user happy and comfortable for the whole day (no shivering nor sweating!).
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## How we built it
 
-### `npm test`
+We used React App to make a front page, and an edit page. In the front page, it has the day's weather at the user's location, the outfit suggestion, and a way to add "how you felt" in the previous day (i.e. too cold, comfortable, or too hot). The weather is found using rapid API. The suggestion algorithm uses the history of the user's outfits during different days/temperatures.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The edit page allows the user to edit the clothing items (add and delete types).
 
-### `npm run build`
+## Challenges we ran into
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Without having a database of how a user felt at different temperatures wearing particular outfits, we were unable to find a model which "fits the data" during the time of OxfordHack. For the future, as we collect more data points, we would like to investigate what model best fits the data points (of the quantitative warmth of total clothes layers against temperature).
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## What's next for Wearther
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To develop Wearther further, we would also like to be able to customise the clothes to match the user's wardrobe (i.e. include specific clothes that the user owns).
 
-### `npm run eject`
+## Accomplishments that we're proud of
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+We managed to debug our code!
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## What we learned
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+How to work together simultaneously on a project without having any clashes!
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+How to use rapid API to get local weather!
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+How to organise our files comprehensively, and use them effectively in React!
