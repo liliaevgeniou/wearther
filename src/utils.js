@@ -37,7 +37,7 @@ export function getWeather(f) {
 
 export function getClothes(history) {
   return {
-    tops: ["Thin@Tanktop/Sleeveless", "Thick@Short-Sleeve Shirt", "Thin@Jacket", "Very Thick@Coat"],
-    bottoms: ["Thick@Trousers"],
+    tops: ["Thin@Tanktop/Sleeveless", "Thin@Short-Sleeve Shirt", "Thick@Long-Sleeve Shirt", "Very Thick@Coat", "Thin@Sweater", "Thin@Jacket"],
+    bottoms: ["Short@Shorts", "Mini@Skirt", "Thin@Tights", "Thick@Trousers"],
   }
 }

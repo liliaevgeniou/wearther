@@ -1,4 +1,10 @@
 .ClothesCard {
     margin: 0 auto;
-    min-width: 24vw
+    /*border: 1px solid gray;*/
+    min-width: 15vw;
+}
+
+.ClothesCardImg {
+    width: 10vw;
+    height: 10vw;
 }
