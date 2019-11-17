@@ -66,7 +66,7 @@ class App extends React.Component {
               className={"Title"}
               variant={"h1"}
           >
-            Wearther
+            <em>Wear</em>ther
           </Typography>
 
           <div className={"Weather"}>
