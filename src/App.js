@@ -4,6 +4,7 @@ import './App.css';
 import Weather from './components/Weather/Weather';
 import {getDate, getWeather, getClothes} from './utils';
 import ClothesCard from "./components/Clothes/ClothesCard";
+import EditSuggestionsDialog from "./components/Edit/Suggestions/EditSuggestionsDialog";
 
 class App extends React.Component {
   constructor(props) {
@@ -17,7 +18,9 @@ class App extends React.Component {
       clothes: {
         tops: [],
         bottoms: [],
-      }
+      },
+      isSuggestionsDialogOpen: false,
+      isPreviousOutfitDialogOpen: false,
     }
   }
 
@@ -75,7 +78,29 @@ class App extends React.Component {
 
           <div className={"Clothes"}>
             <div className={"Suggestions"}>
-
+              <div className={"Edit"}>
+                <div className={"ButtonEditSuggestion"} onClick={
+                  () => this.setState({
+                    isSuggestionsDialogOpen: true,
+                  })
+                }
+                >
+                  edit
+                </div>
+                <EditSuggestionsDialog
+                    isOpen={this.state.isSuggestionsDialogOpen}
+                    onExit={(clothes) => { // TODO: pass parameter and save in history
+                      this.setState({
+                        clothes,
+                        isSuggestionsDialogOpen: false,
+                      })
+                    }}
+                    onCancel={() => {this.setState({
+                      isSuggestionsDialogOpen: false,
+                    })
+                    }}
+                />
+              </div>
               <div className={"TopsSuggestions"}>
                 {
                   this.state.clothes.tops.map(strClothes => {

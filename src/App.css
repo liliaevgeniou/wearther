@@ -24,6 +24,14 @@
   margin: 0 auto;
 }
 
+.Edit {
+  text-align: right;
+  cursor:pointer;
+  color:blue;
+  text-decoration:underline;
+  padding-bottom: 1vh;
+}
+
 .TopsSuggestions {
   display: flex;
   overflow-x: scroll;

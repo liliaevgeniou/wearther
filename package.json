@@ -4,10 +4,11 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.6.1",
+    "@material-ui/icons": "^4.5.1",
+    "prop-types": "latest",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.2.0",
-    "prop-types": "latest"
+    "react-scripts": "3.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
