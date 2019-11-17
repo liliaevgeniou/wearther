@@ -16,6 +16,7 @@ import ClothesCard from "../../Clothes/ClothesCard";
 import './EditSuggestionsDialog.css';
 import ClothesCardEditable from "../../Clothes/ClothesCardEditable";
 import {allTops, allBottoms} from "../../../utils";
+import Chip from "@material-ui/core/Chip";
 
 /*const useStyles = makeStyles(theme => ({
     appBar: {
@@ -113,10 +114,35 @@ export default class FullScreenDialog extends React.Component {
                 </div>
 
                 <div className={"ClothesCardEditableContainerFooter"}>
-                    <b>{"Tops: "}</b> {this.state.selectionT.join(" ")}
+                    <br/>
+                    <b>{"Tops: "}</b>
+                    {
+                        this.state.selectionT.map((clothes) => {
+                            const [variant, type] = clothes.split("@");
+                            return <Chip
+                                key={clothes}
+                                label={[<i>{variant}</i>, <p>&nbsp;</p>, type]}
+                                onDelete={() => this.handleTopRemoveSelection(clothes)}
+                                variant="outlined"
+                            >
+                            </Chip>
+                        })
+                    }
                     <br/>
                     <br/>
-                    <b>{"Bottoms: "}</b> {this.state.selectionB.join(" ")}
+                    <b>{"Bottoms: "}</b>
+                    {
+                        this.state.selectionB.map((clothes) => {
+                            const [variant, type] = clothes.split("@");
+                            return <Chip
+                                key={clothes}
+                                label={[<i>{variant}</i>, <p>&nbsp;</p>, type]}
+                                onDelete={() => this.handleBottomRemoveSelection(clothes)}
+                                variant="outlined"
+                            >
+                            </Chip>
+                        })
+                    }
                 </div>
             </Dialog>
         );
