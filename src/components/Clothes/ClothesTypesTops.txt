@@ -1,24 +1,24 @@
 * Tanktop/Sleeveless
-    Crop Top
-    Thin
-    Thick
+    Crop Top 1
+    Thin 2
+    Thick 3
 * Short-Sleeve Shirt
-    Crop Top
-    Thin
-    Thick
+    Crop Top 2
+    Thin 3
+    Thick 4
 * Long-Sleeve Shirt
-    Crop Top
-    Thin
-    Thick
+    Crop Top 4
+    Thin 5
+    Thick 6
 * Sweater
-    Thin
-    Thick
-    Very Thick
+    Thin 6
+    Thick 7
+    Very Thick 8
 * Jacket
-    Very Thin
-    Thin
-    Thick
+    Very Thin 5
+    Thin 7
+    Thick 8
 * Coat
-    Thin
-    Thick
-    Very Thick
+    Thin 8
+    Thick 9
+    Very Thick 10

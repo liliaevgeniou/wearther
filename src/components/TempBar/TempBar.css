@@ -1,0 +1,5 @@
+.TempBar {
+  background: rgb(199,204,232);
+  background: linear-gradient(90deg, rgba(199,204,232,1) 0%, rgba(255,255,255,1) 50%, rgba(231,211,200,1) 100%);
+  max-width: 50vw;
+}
